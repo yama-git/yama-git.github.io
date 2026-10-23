@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="研究と開発のポートフォリオ">
+    <title>YAMASHITA / Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header">
+      <a class="brand" href="#profile" aria-label="ページ先頭へ">
+        <span>YAMASHITA<span class="brand-slash">/</span>PORTFOLIO</span>
+      </a>
+      <nav class="site-nav" aria-label="ページ内ナビゲーション">
+        <a href="#profile">Profile</a>
+        <a href="#research">Research</a>
+        <a href="#development">Development</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section-shell profile" id="profile" aria-labelledby="profile-title">
+        <h2 id="profile-title">Profile</h2>
+        <div class="profile-content">
+          <div class="profile-photo">
+            <img src="image.JPG" alt="プロフィール写真">
+          </div>
+          <div class="profile-text">
+            <p class="large-copy">山下 彩華 <span>/ Yamashita Ayaka</span></p>
+            <p class="profile-affiliation">奈良先端科学技術大学院大学 先端科学技術研究科<br>先端科学技術専攻 修士1年<br>ユビキタスコンピューティングシステム研究室</p>
+            <div class="profile-story">
+               <p>
+                学部時代に研究へ取り組む中で、情報技術を用いて人の行動変容を支援することに関心を持ちました。
+                その関心をさらに深めるため、2026年3月に高知工科大学 情報学群 情報通信専攻を卒業後、
+                奈良先端科学技術大学院大学ユビキタスコンピューティングシステム研究室へ進学しました。
+                現在は、駅の混雑緩和を目指し、利用者の行動変容を促す手法について研究しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section research" id="research" aria-labelledby="research-title">
+        <div class="section-shell">
+          <div class="work-heading">
+            <h2 id="research-title">Research</h2>
+          </div>
+          <article class="current-research">
+            <div class="current-research-body">
+              <p class="card-meta">DIGITAL TWIN / HUMAN FLOW ANALYSIS</p>
+              <h3>デジタルツインを活用した<br>人流混雑緩和</h3>
+              <p class="research-description">
+                デジタルツインを活用して現実空間の人流を再現・分析し、混雑状況の把握と緩和に取り組んでいます。
+                人流データから移動行動や混雑の発生状況を分析し、情報提示やナッジによる行動誘導を通じた
+                混雑緩和手法を検討しています。
+              </p>
+              <p class="keyword-list"><strong>キーワード</strong> デジタルツイン、人流解析、混雑緩和、行動誘導</p>
+            </div>
+          </article>
+
+          <section class="research-achievements" aria-labelledby="achievements-title">
+            <div class="research-subheading">
+              <p>OUTPUTS</p>
+              <h3 id="achievements-title">Publications &amp; Awards</h3>
+            </div>
+            <ol class="achievement-list">
+              <li>
+                <time datetime="2026">2026.09</time>
+                <span class="achievement-type">発表</span>
+                <div class="achievement-content">
+                  <strong>駅の混雑緩和に向けた人流デジタルツインの初期検討</strong>
+                  <p>山下彩華、庭本眞太郎、松井智一、諏訪博彦、安本慶一</p>
+                  <p>2026年度情報処理学会関西支部大会</p>
+                </div>
+              </li>
+              <li>
+                <time datetime="2026">2026.01</time>
+                <span class="achievement-type">受賞</span>
+                <div class="achievement-content">
+                  <strong>CN研究会優秀発表賞</strong>
+                  <p>デスクワーク中の身体動作とマインドワンダリングの関係性の分析</p>
+                </div>
+              </li>
+              <li>
+                <time datetime="2025">2026.01</time>
+                <span class="achievement-type">発表</span>
+                <div class="achievement-content">
+                  <strong>デスクワーク中の身体動作とマインドワンダリングの関係性の分析</strong>
+                  <p>山下彩華、敷田幹文</p>
+                  <p>第127回CN・第45回CDS・第42回DCC合同研究発表会</p>
+                </div>
+              </li>
+              <li>
+                <time datetime="2025">2025.05</time>
+                <span class="achievement-type">発表</span>
+                <div class="achievement-content">
+                  <strong>運動目標の達成を促進するロールモデル選定手法の検討</strong>
+                  <p>山下彩華、敷田幹文</p>
+                  <p>第126回CN・第59回SPT合同研究発表会</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </section>
+
+      <section class="work-section development" id="development" aria-labelledby="development-title">
+        <div class="section-shell">
+          <div class="work-heading">
+            <h2 id="development-title">Development</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="card-meta">HACKATHON / 2026</p>
+              <h3>DeskMate</h3>
+
+              <p class="project-summary">
+                リモートワーク中のコミュニケーションを支援するアプリを開発。
+                イベントカメラで人の動きを検知し、作業状況をキャラクターで可視化することで、
+                相手に話しかけるタイミングが分かりにくいという課題の解決を目指した。
+                <span class="summary-highlight">
+                  技育CAMPハッカソン Vol.4 サポーターズ賞を受賞。
+                </span>
+              </p>
+
+              <p class="project-link">
+                <a href="https://github.com/hidayusei/hackathon" target="_blank" rel="noopener noreferrer">
+                  GitHub（制作途中）↗
+                </a>
+              </p>
+              <p class="project-link">
+                <a href="https://canva.link/rfdngf86s5mv4nq" target="_blank" rel="noopener noreferrer">
+                  発表資料 ↗
+                </a>
+              </p>
+
+              <div class="tags">
+                <span>イベントカメラ</span>
+                <span>センシング</span>
+                <span>可視化</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="card-meta">TEAM DEVELOPMENT / 2024</p>
+              <h3>PawLovers</h3>
+
+              <p class="project-summary">
+                動物好きな人とペットの飼い主が交流できるSNSアプリを、
+                7人チームで約6か月間開発。
+                要件定義から設計・実装・テストまで一貫して取り組み、
+                <span class="summary-highlight">
+                  主にバックエンドの開発を担当。
+                </span>
+              </p>
+
+              <p class="project-link">
+                <a href="https://github.com/yama-git/NeoZero" target="_blank" rel="noopener noreferrer">
+                  GitHub（制作途中）↗
+                </a>
+              </p>
+
+              <div class="tags">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>MySQL</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <p class="card-meta">AUTOMATION / PERSONAL PROJECT</p>
+              <h3>自動化ツール</h3>
+              
+              <p class="project-summary">
+                研究活動や研究室運営における定型業務の効率化を目的に、
+                Google Apps Scriptを用いた自動化ツールを開発。
+                <span class="summary-highlight">
+                  Googleフォーム、スプレッドシートからのスライド自動生成や、
+                  ゼミのグループ分け・Slack通知の自動化を実装。
+                </span>
+              </p>
+
+              <div class="tags">
+                <span>Google Apps Script</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell experience" id="experience" aria-labelledby="experience-title">
+        <div class="experience-grid">
+          <div>
+            <h2 id="experience-title">Experience</h2>
+            <ol class="timeline">
+              <li><time>2026.08-2026.09</time><p><strong>LINEヤフー株式会社</strong><br>データエンジニアの業務を体験</p></li>
+              <li><time>2026.04-2026.06</time><p><strong>株式会社マネーフォワード</strong><br>フルスタックの会計システム開発を体験</p></li>
+            </ol>
+          </div>
+          <div class="skills">
+            <h2>Skills</h2>
+            <ul>             
+              <li><span>Languages</span><b>Python / C / JavaScript / Java / Go</b></li>
+              <li><span>Web</span><b>React / Tailwind CSS / FastAPI</b></li>
+              <li><span>AI & Data</span><b>PyTorch / OpenCV / scikit-learn / Ollama</b></li>
+              <li><span>Tools & Platforms</span><b>Git / Docker / Linux</b></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell">
+          <h2 id="contact-title">Contact</h2>
+          <address class="contact-card">
+            <div class="contact-details">
+              <div class="contact-email">
+                <span>Email</span>
+                <div class="email-addresses">
+                  <a href="mailto:ayaka3.zero0@gmail.com">
+                    <small>Personal</small>
+                    <b>ayaka3.zero0@gmail.com</b>
+                  </a>
+                  <a href="mailto:yamashita.ayaka.xy5@naist.ac.jp">
+                    <small>University</small>
+                    <b>yamashita.ayaka.xy5@naist.ac.jp</b>
+                  </a>
+                </div>
+              </div>
+              <a href="https://github.com/yama-git" aria-label="GitHub（差し替え用リンク）">
+                <span>GitHub</span>
+                <b>github.com/yama-git</b>
+              </a>
+            </div>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 YAMASHITA PORTFOLIO</span>
+      <a href="#profile">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
