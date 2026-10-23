@@ -36,7 +36,8 @@ h2, h3, h4, dd, p, strong { overflow-wrap: break-word; }
 .section-label { display: flex; gap: .7rem; align-items: baseline; margin-bottom: 1.25rem; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .1em; }
 .section-label span { color: var(--ink); }
 .profile h2 { margin: 0 0 clamp(2.2rem, 4vw, 3.25rem); font-family: var(--display); font-size: clamp(3.2rem, 7vw, 6.5rem); font-weight: 400; letter-spacing: -.04em; line-height: 1; }
-.profile-content { display: grid; grid-template-columns: minmax(17rem, .8fr) minmax(0, 1.2fr); align-items: center; gap: clamp(3rem, 7vw, 7rem); }
+.profile h2:empty { display: none; }
+.profile-content { display: grid; grid-template-columns: minmax(15rem, 20rem) minmax(0, 1fr); align-items: center; gap: clamp(2.5rem, 6vw, 5.5rem); }
 .profile-text { min-width: 0; }
 .experience h2 { font-family: var(--display); font-size: clamp(2.8rem, 5vw, 4.8rem); font-weight: 400; letter-spacing: -.03em; }
 .profile-text p { max-width: 34rem; }
